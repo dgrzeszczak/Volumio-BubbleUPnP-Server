@@ -15,10 +15,10 @@ if [ $cpu = "armv7l" ]; then
     sudo /opt/bin/ipkg update
     echo "Installing bubbleupnpserver"
     sudo /opt/bin/ipkg install bubbleupnpserver-installer
-    sudo chmod a+w /opt/var/run
-    sudo chown -R volumio /opt/share/bubbleupnpserver
     # by default ipkg will start the server so we can stop it
     /opt/bin/bubbleupnpserver stop
+    sudo chmod a+w /opt/var/run
+    sudo chown -R volumio /opt/share/bubbleupnpserver
     echo "plugininstallend"
 else
     echo "Sorry, your device is not supported!"
