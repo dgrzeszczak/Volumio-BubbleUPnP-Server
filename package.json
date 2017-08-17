@@ -1,0 +1,21 @@
+{
+	"name": "volumio_bubbleupnp_server",
+	"version": "0.0.1",
+	"description": "Easy install of BubbleUPnP Server on Volumio.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "dB",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "BubbleUPnP Server",
+		"plugin_type": "miscellanea"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"opn": "^5.1.0",
+		"v-conf": "^1.4.0"
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "page": {
+    "label": "BubbleUPnP Server configuration"
+  },
+  "sections": [
+    {
+      "id": "section_settings",
+      "element": "section",
+      "label": "Settings",
+      "icon": "fa-wrench",
+      "onSave": {
+        "type": "controller",
+        "endpoint": "miscellanea/volumio_bubbleupnp_server",
+        "method": "openSettings"
+      },
+     "content": [
+        {
+          "id": "link",
+          "type":"text",
+          "element": "input",
+          "label": "Open your volumio address  with suffix (port number) :58050",
+          "value": "eg. volumio.local:58050 or [device IP]:58050"
+        }
+      ]
+    }
+  ]
+}
