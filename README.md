@@ -1,7 +1,8 @@
 # BubbleUPnP Server Installer for Volumio
 It's a helper tool that installs *BubbleUPnP Server* directly on *Volumio* system.
 
-*BubbleUPnP Server* support streaming Tidal and Qobuz to Volumio device. All you need is *OpenHome* renderer application like Linn Kazoo, Lumin etc. 
+Can be used to stream Tidal and Qobuz (using MDP) without additional device for *BubbleUPnP Server* like PC, Mac, Android phone etc. 
+ All you need is *OpenHome* renderer application like Linn Kazoo, Lumin etc. 
  
 *BubbleUPnP Server* is using port *58050* by default. Please open *[YOUR VOLUMIO IP]:58050* site in your browser to access *BubbleUPnP Server* configuration page.
 
