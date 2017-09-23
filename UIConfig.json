@@ -14,16 +14,14 @@
         "method": "openSettings"
       },
      "content": [
-       {
-				"id": "open_server_config",
-				"element": "button",
-				"label": "BubbleUPnP Server",
-				"description": "Open BubbleUPnP Server configuration page",
-				"onClick": {
-					"type": "openUrl",
-					"url": "https://localhost:58050"
-				}
-			}]
+        {
+          "id": "link",
+          "type":"text",
+          "element": "input",
+          "label": "Open your volumio address  with suffix (port number) :58050",
+          "value": "eg. volumio.local:58050 or [device IP]:58050"
+        }
+      ]
     }
   ]
 }
